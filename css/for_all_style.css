@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav_bar{
+    background-color: aquamarine; 
+    padding: 0.5em;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    padding:0.5em;
+    margin:0.5em;
+    border-radius: 15%;
+}
+
+.nav_bar .selected{
+    padding: 0.5em;
+    margin:0.5rem;
+    color: rgb(117, 117, 110);
+    background-color: beige;
+}
+
+h1{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
