@@ -6,14 +6,23 @@ body{
 
 .nav_bar{
     background-color: aquamarine; 
-    padding: 0.5em;
+    padding: 1rem;
 }
 
-.nav_bar a{
+.nav_bar > a{
     text-decoration: none;
     padding:0.5em;
     margin:0.5em;
     border-radius: 15%;
+}
+
+.nav_bar > a:hover{
+    text-decoration: none;
+    padding:0.5em;
+    margin:0.5em;
+    border-radius: 15%;
+    color: rgb(117, 117, 110);
+    background-color: rgba(245, 245, 220, 0.674);
 }
 
 .nav_bar .selected{
@@ -21,6 +30,7 @@ body{
     margin:0.5rem;
     color: rgb(117, 117, 110);
     background-color: beige;
+    border-radius: 15%;
 }
 
 h1{
